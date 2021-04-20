@@ -1,0 +1,27 @@
+{
+	"name": "itlo/cms-composer",
+	"description": "ITLO CMS composer scripts",
+	"keywords": ["yii", "itlo", "framework", "component"],
+  	"homepage": "https://cms.itlo.ru/",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"support": {
+        "issues": "https://itlo.ru/",
+        "wiki": "https://cms.itlo.ru/docs",
+        "source": "https://github.com/itlo-cms/cms-composer.git"
+    },
+	"authors": [
+		{
+			"name": "Roman Ivan",
+			"email": "info@itlo.ru"
+		}
+	],
+	"require": {
+		"yiisoft/composer-config-plugin": "^1.0@dev"
+	},
+    "autoload": {
+        "psr-4": {
+            "skeeks\\cms\\composer\\": "src/"
+        }
+    }
+}
