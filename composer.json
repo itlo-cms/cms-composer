@@ -16,9 +16,17 @@
 			"email": "info@itlo.ru"
 		}
 	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
 		"yiisoft/composer-config-plugin": "^1.0@dev"
 	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	],
     "autoload": {
         "psr-4": {
             "skeeks\\cms\\composer\\": "src/"
